@@ -1,0 +1,38 @@
+{
+  "name": "supply-chain-backend",
+  "version": "1.0.0",
+  "description": "Backend for Supply Chain Management System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^8.7.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.8.1",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.2",
+    "pdfkit": "^0.17.1",
+    "socket.io": "^4.7.2",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "supply-chain",
+    "inventory",
+    "logistics",
+    "real-time"
+  ],
+  "author": "Supply Chain Management Team",
+  "license": "MIT"
+}
