@@ -344,8 +344,3 @@ If you encounter any issues or have questions, please create an issue in the Git
 - Automated testing suite
 - Docker containerization
 - CI/CD pipeline integration
-
----
-
-**Supply Chain Management System** - A complete real-time solution for modern supply chain operations.
-"# SupplyChainManagement-SmartOps" 
